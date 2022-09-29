@@ -25,5 +25,4 @@ for i in range(N):
         chk[i] = True
         ans += 1
         dfs(i)
-
 print(ans)
