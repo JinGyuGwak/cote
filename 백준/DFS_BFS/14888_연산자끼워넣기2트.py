@@ -9,14 +9,12 @@ answer = number[0]
 def dfs(idx):
     global answer
     global minR, maxR
-
     if idx == n:
         if answer > maxR:
             maxR = answer
         if answer < minR:
             minR = answer
         return
-
     for i in range(4):
         tmp = answer
         if op[i] > 0:
@@ -36,7 +34,6 @@ def dfs(idx):
             dfs(idx+1)
             answer = tmp
             op[i] += 1
-
 
 dfs(1)
 print(maxR)
