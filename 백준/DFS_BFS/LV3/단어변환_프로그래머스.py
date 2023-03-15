@@ -1,6 +1,5 @@
 from collections import deque
 
-
 def solution(begin, target, words):
     answer=0
     visit=[0]*len(words)
