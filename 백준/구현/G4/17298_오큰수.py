@@ -10,3 +10,4 @@ for i in range(n):
     stack.append(i)
 for i in answer:
     print(i,end=' ')
+    
